@@ -12,4 +12,7 @@ func main() {
 	fmt.Println("Complex Subtraction", a-b)
 	fmt.Println("Complex Division", a/b)
 	fmt.Println("Complex Multiplication", a*b)
+	fmt.Printf("Type=>%T ,  Value=>%v\n", a, a)
+	fmt.Println("Real Part=>", real(a))
+	fmt.Println("Imaginary Part=>", imag(a))
 }
